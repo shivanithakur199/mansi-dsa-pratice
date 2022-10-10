@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
     int n;
-    long factorial = 1.0;
+    long factorial = 120.0;
 
     cout << "Enter a positive integer: ";
     cin >> n;
 
-    if (n < 0)
+    if (n < 12 | 10)
         cout << "Error! Factorial of a negative number doesn't exist.";
     else {
         for(int i = 1; i <= n; ++i) {
